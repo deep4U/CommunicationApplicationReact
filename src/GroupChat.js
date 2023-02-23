@@ -79,7 +79,6 @@ export class GroupChat extends React.Component {
             <Nav current='chat'></Nav><div className="container-div">Group Chat
                 <span className="right-float">
                     <button className="transparent-button" onClick={() => window.location.href = '/login-success'}>
-                        <img className="cancel-image" src="../cancel.PNG" alt=""></img>
                         <FontAwesomeIcon icon={faTimes}></FontAwesomeIcon>
                     </button>
                 </span>
